@@ -1,0 +1,205 @@
+/* SIMAKER Dark Mode Stylesheet */
+
+body.dark-mode {
+    background-color: #0f172a;
+    color: #e2e8f0;
+}
+
+body.dark-mode :root {
+    --gray-50: #1e293b;
+    --gray-100: #334155;
+    --gray-200: #475569;
+    --gray-300: #64748b;
+    --gray-700: #cbd5e1;
+    --gray-800: #e2e8f0;
+    --gray-900: #f1f5f9;
+}
+
+/* Cards */
+body.dark-mode .card {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+}
+
+body.dark-mode .card-header {
+    background-color: #1e293b;
+    border-bottom-color: #334155;
+    color: #f1f5f9;
+}
+
+/* Tables */
+body.dark-mode .table-container {
+    background-color: #1e293b;
+}
+
+body.dark-mode .table {
+    color: #e2e8f0;
+}
+
+body.dark-mode .table thead {
+    background-color: #0f172a;
+}
+
+body.dark-mode .table thead th {
+    color: #f1f5f9;
+    border-bottom-color: #334155;
+}
+
+body.dark-mode .table tbody tr:hover {
+    background-color: #334155;
+}
+
+body.dark-mode .table tbody td {
+    border-color: #334155;
+}
+
+/* Forms */
+body.dark-mode .form-control,
+body.dark-mode .form-select {
+    background-color: #1e293b;
+    border-color: #475569;
+    color: #e2e8f0;
+}
+
+body.dark-mode .form-control:focus,
+body.dark-mode .form-select:focus {
+    background-color: #1e293b;
+    border-color: var(--primary);
+    color: #e2e8f0;
+}
+
+body.dark-mode .form-control::placeholder {
+    color: #64748b;
+}
+
+body.dark-mode .form-label {
+    color: #cbd5e1;
+}
+
+/* Navbar */
+body.dark-mode .top-navbar {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+}
+
+body.dark-mode .page-title {
+    color: #f1f5f9;
+}
+
+/* Typography */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+    color: #f1f5f9;
+}
+
+/* Buttons */
+body.dark-mode .btn-light {
+    background-color: #334155;
+    border-color: #475569;
+    color: #e2e8f0;
+}
+
+body.dark-mode .btn-light:hover {
+    background-color: #475569;
+    color: #f1f5f9;
+}
+
+/* Alerts */
+body.dark-mode .alert-info {
+    background-color: #1e3a5f;
+    border-color: #2563eb;
+    color: #93c5fd;
+}
+
+body.dark-mode .alert-success {
+    background-color: #0f5132;
+    border-color: #10b981;
+    color: #6ee7b7;
+}
+
+body.dark-mode .alert-warning {
+    background-color: #664d03;
+    border-color: #f59e0b;
+    color: #fcd34d;
+}
+
+body.dark-mode .alert-danger {
+    background-color: #5a1f1f;
+    border-color: #ef4444;
+    color: #fca5a5;
+}
+
+/* Dark mode toggle icon */
+body.dark-mode .dark-mode-toggle {
+    background-color: #334155;
+    color: #fbbf24;
+}
+
+body.dark-mode .dark-mode-toggle:hover {
+    background-color: #475569;
+}
+
+/* Dropdowns */
+body.dark-mode .dropdown-menu {
+    background-color: #1e293b;
+    border-color: #334155;
+}
+
+body.dark-mode .dropdown-item {
+    color: #e2e8f0;
+}
+
+body.dark-mode .dropdown-item:hover {
+    background-color: #334155;
+    color: #f1f5f9;
+}
+
+/* Notification Bell */
+body.dark-mode .notification-bell {
+    color: #cbd5e1;
+}
+
+body.dark-mode .notification-bell:hover {
+    color: var(--primary);
+}
+
+/* Login Page */
+body.dark-mode .login-card {
+    background-color: #1e293b;
+}
+
+body.dark-mode .login-body {
+    background-color: #1e293b;
+}
+
+/* Pagination */
+body.dark-mode .page-link {
+    background-color: #1e293b;
+    border-color: #334155;
+    color: #10b981;
+}
+
+body.dark-mode .page-link:hover {
+    background-color: #334155;
+    color: #6ee7b7;
+}
+
+body.dark-mode .page-item.active .page-link {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+
+/* Smooth transitions */
+body,
+.card,
+.table-container,
+.form-control,
+.form-select,
+.btn,
+.top-navbar {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
