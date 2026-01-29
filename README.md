@@ -1,3 +1,10 @@
+<img width="1910" height="905" alt="Screenshot 2026-01-29 114311" src="https://github.com/user-attachments/assets/d7b5f6fa-78a2-4167-8649-de8a563a37e7" />
+<img width="1910" height="915" alt="Screenshot 2026-01-29 110350" src="https://github.com/user-attachments/assets/b740475a-edee-4d76-b9b7-ff466e050dc6" />
+<img width="1911" height="917" alt="Screenshot 2026-01-29 120344" src="https://github.com/user-attachments/assets/89f54cff-a6a4-40a8-b243-e404823febd0" />
+<img width="1919" height="917" alt="Screenshot 2026-01-29 120404" src="https://github.com/user-attachments/assets/4742d9d4-f72c-45dd-a650-47242a6812f0" />
+<img width="1912" height="916" alt="Screenshot 2026-01-29 110428" src="https://github.com/user-attachments/assets/f1a7dc39-5685-4cab-95cc-64b60d2c024d" />
+<img width="1897" height="929" alt="Screenshot 2026-01-29 121843" src="https://github.com/user-attachments/assets/e5088ff6-b97d-4962-a889-75a091fa12c3" />
+
 # SIMAKER - Sistem Informasi Monitoring Aktivitas Kerja
 
 Sistem informasi logbook rumah sakit berbasis web untuk mencatat aktiv itas harian tenaga medis secara digital dengan fitur verifikasi dan laporan terpusat.
